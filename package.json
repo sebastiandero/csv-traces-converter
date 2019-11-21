@@ -1,0 +1,27 @@
+{
+  "name": "csv-converter",
+  "version": "1.0.0",
+  "main": "main.js",
+  "bin": "main.js",
+  "author": "Sebastian De Ro",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc && pkg ."
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.11",
+    "@types/yargs": "^13.0.3",
+    "typescript": "^3.7.2",
+    "pkg": "^4.4.0"
+  },
+  "dependencies": {
+    "yargs": "^15.0.2"
+  },
+  "pkg": {
+    "scripts": "main.js",
+    "targets": [
+      "node12-win",
+      "node12-macos"
+    ]
+  }
+}

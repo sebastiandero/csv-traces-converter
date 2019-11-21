@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "umd",
+    "lib": [
+      "es2019",
+      "dom"
+    ],
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "files": [
+    "./main.ts"
+  ]
+}
